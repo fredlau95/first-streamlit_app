@@ -31,7 +31,7 @@ streamlit.dataframe(my_fruit_list)
 
 #New Section to display fruityvice api response
 streamlit.header ('Fruityvice Fruit Advice! ')
-fruityvice_response=requests.get("https://fruityvice.com/api/fruit/" + fruit choice)
+fruityvice_response=requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
 streamlit.write('The user entered ', fruit_choice)
 
 import requests
